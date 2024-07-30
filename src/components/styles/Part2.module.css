@@ -1,0 +1,45 @@
+.part2 {
+    text-align: center;
+    background-color: #171923;
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+  
+.part2 h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+  
+.part2 p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgba(160,174,192,1);
+}
+  
+.largeText {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 20px;
+    width: 100%; 
+}
+  
+.image1 {
+    width: 50px; 
+    height: auto;
+    padding-left: 290px;
+}
+.image2 {
+    width: 50px; 
+    height: auto;
+    padding-right: 290px;
+}
+

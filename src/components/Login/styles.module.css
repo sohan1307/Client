@@ -1,0 +1,160 @@
+.login_container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* Prevent scroll bar */
+}
+
+.login_form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.form_container h1 {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.input {
+    outline: none;
+    border: 1px solid #888;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    font-size: 14px;
+    color: #888;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.error_msg {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: #ff4c4c;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.green_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: #007bff;
+    border-radius: 12px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.right {
+    text-align: center;
+    width: 100%;
+}
+
+.right span {
+    font-size: 14px;
+    color: #fff; /* White color for "Don't have an account?" text */
+    margin-right: 5px;
+}
+
+.white_btn {
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: none; /* Remove underline */
+}
+
+.ellipse {
+	position: absolute;
+    top: 75px; /* Adjust as necessary to position correctly */
+    right: -75px; /* Adjust as necessary to position correctly */
+    width: 170px;
+    height: 170px;
+    background-color: #ff8c8c;
+    border-radius: 100%;
+    z-index: 0; /* Ensure it stays in the background */
+}
+
+.ellipse2 {
+	position: absolute;
+    bottom: -85px; /* Adjust as necessary to position correctly */
+    right: 300px; /* Adjust as necessary to position correctly */
+    width: 170px;
+    height: 170px;
+    background-color: rgba(255, 191, 125, 1);
+    border-radius: 100%;
+    z-index: 0; /* Ensure it stays in the background */
+}
+
+.polygon {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid rgba(255, 139, 26, 1);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.polygon_shadow {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid darkorange;
+    position: absolute;
+    top: 53%; /* Slightly lower than the main polygon */
+    left: 12%; /* Slightly to the right of the main polygon */
+    transform: translateY(-50%) rotate(60deg);
+    z-index: 0; /* Ensure it stays behind the main polygon */
+}
+
+.arrow {
+    position: absolute;
+    top: 20px; /* Adjust as necessary */
+    left: 20px; /* Adjust as necessary */
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #007bff;
+    cursor: pointer;
+    z-index: 2; /* Ensure it stays on top */
+}
+
+.back_button {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+}

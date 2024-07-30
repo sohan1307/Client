@@ -1,0 +1,59 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: #171923;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+}
+
+.nav_btn_signin, .nav_btn_signup {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav_btn_signin {
+    border: 1px solid rgba(126,166,255,1);
+    background-color: transparent;
+    color: rgba(126,166,255,1);
+    margin-left:30px;
+}
+
+.nav_btn_signup {
+    background-color:#007bff;
+    color: white;
+    margin-left: 30px;
+}
+
+.nav_btn_signin:hover, .nav_btn_signup:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,93 @@
+.droppable-area {
+    border: 2px dashed #aaa;
+    padding: 20px;
+    
+    min-height: 400px;
+    background-color: #fff;
+    flex-grow: 1; 
+    overflow-y: auto;
+  }
+  
+  .elements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-color: #18181B;
+  }
+  
+  .element-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .draggable-element {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: move;
+    text-align: center;
+    flex: 1 0 45%; 
+    box-sizing: border-box;
+  }
+  
+  .form-builder {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #18181B;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .toolbar-buttons {
+    display: flex;
+  }
+  
+  .toolbar-button {
+    margin: 0 5px;
+  }
+  
+  .selected {
+    border: 2px solid #007bff;
+  }
+  
+  .toolbar-action-button {
+    margin-left: 10px;
+  }
+  
+  .form-link-container {
+    margin: 20px;
+  }
+  
+  .start-message {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .form-element {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 315px;
+    position: relative;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  

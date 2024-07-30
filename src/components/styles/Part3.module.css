@@ -1,0 +1,109 @@
+.part3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #171923;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.formContainer {
+    width: 50%;
+    padding: 20px; 
+    padding-bottom: 0; 
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    min-height: 400px; 
+    margin-right: 20px; 
+}
+
+.formContainer h2 {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: left; 
+    font-weight: lighter;
+}
+
+.formContainer input[type='text'],
+.formContainer input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #171923;
+    box-sizing: border-box; 
+}
+
+.required {
+    color: red;
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.checkboxContainer label {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkboxContainer input[type='checkbox'] {
+    margin-right: 10px; 
+}
+
+.additionalInfo {
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #171923;
+    color: white;
+    box-sizing: border-box; 
+}
+
+.submitButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 640px;
+
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center;
+    width: 50%; /* Match the width of the formContainer */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    min-height: 400px; /* Ensure it matches or exceeds the height of the formContainer */
+    border: 1px solid #444; /* Optional: Add border for consistency */
+    border-radius: 10px; /* Match the border radius of the formContainer */
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imageContainer p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #aaa;
+}

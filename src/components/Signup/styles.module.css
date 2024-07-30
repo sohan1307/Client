@@ -1,0 +1,139 @@
+.signup_container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* Add this line to ensure the ellipse is not cut off */
+}
+
+.signup_form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_group {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.input_group h1 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+    margin-top: 0;
+    text-align: left;
+}
+
+.input {
+    outline: none;
+    border: 1px solid #888;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    font-size: 14px;
+    color: #888;
+    width: 100%;
+}
+
+.error_msg {
+    font-size: 14px;
+    color: #ff4c4c;
+    text-align: center;
+}
+
+.signup_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: #007bff;
+    border-radius: 12px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+
+.login_link {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.login_link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login_link a:hover {
+    text-decoration: underline;
+}
+
+.back_button {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+}
+
+.ellipse {
+    position: absolute;
+    top: 75px; /* Adjust as necessary to position correctly */
+    right: -75px; /* Adjust as necessary to position correctly */
+    width: 170px;
+    height: 170px;
+    background-color: #ff8c8c;
+    border-radius: 100%;
+    z-index: 0; /* Ensure it stays in the background */
+}
+.ellipse2 {
+    position: absolute;
+    bottom: -85px; /* Adjust as necessary to position correctly */
+    right: 300px; /* Adjust as necessary to position correctly */
+    width: 170px;
+    height: 170px;
+    background-color: rgba(255, 191, 125, 1);
+    border-radius: 100%;
+    z-index: 0; /* Ensure it stays in the background */
+	
+}
+
+
+.polygon {
+	width: 0;
+    height: 0px;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 160px solid rgba(255, 139, 26, 1);
+    position: absolute;
+    top: 250px;
+    left: 250px;
+	transform:rotate(180deg);
+}
+.polygon_shadow {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent; /* Adjusted size */
+    border-right: 80px solid transparent; /* Adjusted size */
+    border-bottom: 160px solid darkorange; /* Adjurgsted size */
+    position: absolute;
+    top: 250px; /* Adjust as necessary to position correctly */
+    left: 250px; /* Adjust as necessary to position correctly */
+    transform: rotate(60deg); /* Rotate the polygon */
+    z-index: 0; /* Ensure it stays behind the main polygon */
+}

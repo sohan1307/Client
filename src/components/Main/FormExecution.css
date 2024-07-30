@@ -1,0 +1,114 @@
+.form-execution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+  }
+  
+  .chat-window {
+    width: 80%;
+    max-width: 800px; 
+    height: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fade-in 0.5s;
+  }
+  
+  .message.bot {
+    background-color: #e0e0e0;
+    align-self: flex-start;
+  }
+  
+  .message.user {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+  }
+  
+  .bot-avatar {
+    background-image: url('https://w7.pngwing.com/pngs/193/660/png-transparent-computer-icons-woman-avatar-avatar-girl-thumbnail.png'); /* Replace with bot avatar */
+  }
+  
+  .user-avatar {
+    background-image: url('https://w7.pngwing.com/pngs/193/660/png-transparent-computer-icons-woman-avatar-avatar-girl-thumbnail.png'); /* Replace with user avatar */
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .greeting-container {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .hi-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hi-button:hover {
+    background-color: #0056b3;
+  }
+  

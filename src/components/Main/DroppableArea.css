@@ -1,0 +1,124 @@
+.form-builder {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .form-title-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .toolbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toolbar-button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .toolbar-button.selected {
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .toolbar-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toolbar-action-button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .elements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+  }
+  
+  .element-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .draggable-element {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #1F1F23;
+  }
+  
+  .form-link-container {
+    padding: 10px;
+  }
+  
+  .droppable-area {
+    background-color: #1F1F23; 
+    color: #fff; 
+    padding: 20px;
+    min-height: 200px; 
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .start-message {
+    color: #fff; 
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .form-element {
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 315px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+    border-radius: 4px;
+    background-color: #18181B; 
+    color: #fff; 
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    color: #fff; 
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  input {
+    background-color: #333; 
+    color: #fff; 
+    border: 1px solid #555; 
+    border-radius: 4px;
+    padding: 5px;
+    
+  }
+  

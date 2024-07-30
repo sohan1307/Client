@@ -1,0 +1,37 @@
+.Part5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171923;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    
+  }
+  
+  .image {
+    max-width: 40%; 
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px; 
+    padding-right: 220px; 
+  }
+  
+  .textContainer {
+    max-width: 50%;
+  }
+  
+  .textContainer h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-left: 350px;
+  }
+  
+  .textContainer p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-left: 350px;
+    color:rgba(160,174,192,1);
+    font-weight: lighter;
+  }
+  
